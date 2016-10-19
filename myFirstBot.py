@@ -21,7 +21,7 @@ def recibe(messages):
                 bot.send_message(m.chat.id, "180801311:AAHlah5SsktJxmVoMbs4_QueoGpnMwv5F3U")
                 bot.send_message(m.chat.id, "cuidado con mi código, por favor...")
             elif m.text == "hora":
-                bot.send_message(m.chat.id, "Son las " + tiempo")
+                bot.send_message(m.chat.id, "Son las " + tiempo)
             elif m.text == "clases":
                 bot.send_message(m.chat.id, "Lunes: DES, TID y CC. Martes: DSS, IC y DSS, Miércoles: CC y PGPI, Jueves: IC y PGPI y Viernes: DES y TID")
                 bot.send_message(m.chat.id, "Si quieres más detalles, dime qué día es hoy")
